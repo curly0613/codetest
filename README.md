@@ -3,15 +3,17 @@
 
 1. upper() : 문자열 알파벳 대문자로
    ```
-   'abc'.upper()
-   'ABC'
+   > 'abc'.upper()
+   > 'ABC'
    ```
 2. lower() : 문자열 알파벳 소문자로
 3. swapcase() : 대소문자 변경
 4. zip() : for문 시 여러 리스트의 원소를 각 하나씩 loop
 5. join() : list를 문자열로 출력
    ```
-   ''.join(list)
+   > list = [a, b, c, d, e, f, g]
+   > ''.join(list)
+   > 'abcdefg'
    ```
 6. 비교 연산자 차이 
   - is 와 == : is는 주소비교, =는 값 비교
@@ -24,9 +26,18 @@
   - 함수 대용, 간단한 함수 정의
   - example
     ```
-    lambda x,y:x+y
-    (lambda x,y:x+y)(1,2)
-    3
-    map(lambda x:x*2, range(5))
-    [0, 2, 4, 6, 8]
+    > lambda x,y:x+y
+    > (lambda x,y:x+y)(1,2)
+    > 3
+    > map(lambda x:x*2, range(5))
+    > [0, 2, 4, 6, 8]
     ```
+9. doble colon
+   - step을 의미
+   ```
+   > A = [1, 2, 3, 4, 5]
+   > A[::2]
+   > [1, 3, 5]
+   > A[::-1]
+   > [5, 4, 3, 2, 1] 
+   ```
