@@ -41,6 +41,6 @@
       > A[::-1]
       > [5, 4, 3, 2, 1] 
       ```
-12. endswith
-   - 접미사 확인
+12. startswith, endswith
+   - 접두사, 접미사 확인
    - rfind, rindex : 문자열에서 마지막으로 나타나는 문자, 문자열의 index
