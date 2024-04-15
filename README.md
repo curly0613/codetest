@@ -43,4 +43,10 @@
       ```
 12. startswith, endswith
    - 접두사, 접미사 확인
-   - rfind, rindex : 문자열에서 마지막으로 나타나는 문자, 문자열의 index
+   - rfind, rindex : 문자열에서 마지막으로 나타나는 특정 문자 또는 문자열의 index
+13. count
+   - 문자열의 문자 개수 반환
+     ```
+     > 'abcda'.count('a')
+     > 2
+     ```
