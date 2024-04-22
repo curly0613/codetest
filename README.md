@@ -50,6 +50,8 @@
       > 'abcda'.count('a')
       > 2
       ```
+14. strip, lstrip, rstrip
+    - 인자로 받은 문자열을 제거(strip: 양쪽, lstrip: 왼쪽, rstrip: 오른쪽)
 15. bin
     - 10진수를 2진수로 변형 (문자열, 앞에 0b가 붙음)
       ```
