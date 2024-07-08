@@ -71,6 +71,8 @@
     - heap queue 구현
     - heappush, heappop
 18. itertools
-   - 순열, 조합 구현
-   - permutations, combinations
-19. 
+    - 순열, 조합 구현
+    - permutations, combinations
+19. dictinary의 value 최대값
+    - 최대 value를 갖는 key : max(dict, key=dict.get)
+    - 하나 이상의 key를 출력할 때 : [key for key in dict if dict[key] == max(dict.values())]
