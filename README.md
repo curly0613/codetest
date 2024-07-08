@@ -67,3 +67,10 @@
       > list(zip(*[[1,1],[2,2]]))
       > [(1,2),(1,2)]
       ```
+17. heapq
+    - heap queue 구현
+    - heappush, heappop
+18. itertools
+   - 순열, 조합 구현
+   - permutations, combinations
+19. 
